@@ -1,0 +1,131 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+//    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@src/*": [
+        "./src/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@styles/*": [
+        "./src/assets/styles*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@images/*": [
+        "./src/assets/images*"
+      ],
+      "@controller/*": [
+        "./src/controller/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@entity/*": [
+        "./src/entity/*"
+      ],
+      "@repository/*": [
+        "./src/repository/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ]
+    }
+  },
+  "include": [
+    "./src"
+  ]
+}
+
+
+//{
+//  "compilerOptions": {
+//    "experimentalDecorators": true,
+//    "target": "es6",
+//    "module": "es6",
+//    "lib": [
+//      "es2019",
+//      "dom"
+//    ],
+//    //    "strict": true,
+//    "skipLibCheck": true,
+//    "resolveJsonModule": true,
+//    "esModuleInterop": true,
+//    "moduleResolution": "node",
+//    "declaration": false,
+//    //    "noImplicitAny": true,
+//    "jsx": "react",
+//    "sourceMap": true,
+//    "noLib": false,
+//    "suppressImplicitAnyIndexErrors": true,
+//    "allowSyntheticDefaultImports": true,
+//    "baseUrl": "./",
+//    "paths": {
+//      "@config/*": [
+//        "./src/config/*"
+//      ],
+//      "@src/*": [
+//        "./src/*"
+//      ],
+//      "@assets/*": [
+//        "./src/assets/*"
+//      ],
+//      "@styles/*": [
+//        "./src/assets/styles*"
+//      ],
+//      "@components/*": [
+//        "./src/components/*"
+//      ],
+//      "@images/*": [
+//        "./src/assets/images*"
+//      ],
+//      "@controller/*": [
+//        "./src/controller/*"
+//      ],
+//      "@services/*": [
+//        "./src/services/*"
+//      ],
+//      "@entity/*": [
+//        "./src/entity/*"
+//      ],
+//      "@repository/*": [
+//        "./src/repository/*"
+//      ],
+//      "@pages/*": [
+//        "./src/pages/*"
+//      ]
+//    }
+//  },
+//  "include": [
+//    "./src"
+//  ],
+//  "exclude": [
+//    "node_modules"
+//  ]
+//}

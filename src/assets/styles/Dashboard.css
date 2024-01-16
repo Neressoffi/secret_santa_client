@@ -1,0 +1,15 @@
+.wrapper-dashboard {
+    position: relative;
+    width: 100%;
+}
+
+.dashboard-content {
+    width: 100%;
+    margin-top: 61px;
+    /*padding: 0 20px;*/
+}
+
+.wrap-dashboard {
+    display: flex;
+    justify-content: space-between;
+}

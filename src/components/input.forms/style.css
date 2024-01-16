@@ -1,0 +1,71 @@
+.wrap-text-input-area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.text-input-area {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #c9d7df;
+    color: #1f2836;
+    display: inline-block;
+    transition: all .1s linear;
+    font-size: .75rem;
+    outline: none;
+    padding: 12px 35px 12px 20px;
+    font-family: "Poppins", sans-serif
+}
+
+.text-input-area.input-area-error {
+    border: 0.8px solid #f80061;
+    box-shadow: none !important;
+}
+
+input::placeholder {
+    color: #5D5D5D;
+    font-family: "Poppins", sans-serif;
+    font-size: .75rem;
+}
+
+.input-label {
+    font-size: .75rem;
+    line-height: 22px;
+    color: #2b2b2be8;
+    font-family: "Poppins", sans-serif
+}
+
+.input-label .isRequired {
+    color: #970000b5;
+}
+
+.wrap-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 40px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #5D5D5D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p.invalid-feedback {
+    margin-bottom: 0;
+    font-size: .75rem;
+    color: #f80061;
+    margin-top: 2px;
+}

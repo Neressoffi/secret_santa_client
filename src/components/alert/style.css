@@ -1,0 +1,18 @@
+.wrap-text-error {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.wrap-error {
+    border: none;
+    border-radius: var(--default-border-radius);
+    color: #f80061;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--medium-size);
+    height: 50px;
+    background-color: #eb6d6d26;
+}

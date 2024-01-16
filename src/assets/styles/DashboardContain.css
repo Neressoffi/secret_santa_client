@@ -1,0 +1,39 @@
+.wrap-dshb-contain {
+
+}
+
+.page-breadcrumb {
+    padding: 13px 25px;
+    position: fixed;
+    width: 100%;
+    top: 61px;
+    z-index: 9;
+}
+
+.page-breadcrumb .page-title {
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.page-content{
+    margin-top: 75px;
+}
+
+.white-box {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.white-box .box-title {
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 18px;
+}
+.list-inline .counter {
+    font-size: 24px;
+    font-weight: 100;
+}
+.text-success {
+    color: #7ace4c!important;
+}
